@@ -125,6 +125,7 @@ export function deleteSessionTokenCookie(event) {
 export const google = new Google(
     GOOGLE_CLIENT_ID,
     GOOGLE_CLIENT_SECRET,
-    "http://localhost:5173/login/google/callback"
+    "https://portfolio-seven-amber-76.vercel.app/login/google/callback"
+
 );
 /*1:09:34*/
