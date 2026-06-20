@@ -125,7 +125,7 @@ export function deleteSessionTokenCookie(event) {
 export const google = new Google(
     GOOGLE_CLIENT_ID,
     GOOGLE_CLIENT_SECRET,
-    "https://orion-git-master-zendosnaim-7096s-projects.vercel.app/login/google/callback"
+    "https://orion-681r1v7x3-zendosnaim-7096s-projects.vercel.app/login/google/callback"
 
 );
 /*1:09:34*/
