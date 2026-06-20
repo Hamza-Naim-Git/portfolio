@@ -270,31 +270,7 @@ strong {
     color: var(--uspn-blue);
 }
 
-/* Style de tous les paragraphes à l'intérieur */
-.presentation p {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.05rem;      /* Taille légèrement augmentée pour le confort visuel */
-    line-height: 1.7;        /* Hauteur de ligne (interligne) aérée */
-    color: #3a415a;          /* Un gris très sombre tirant sur le bleu, plus doux que le noir pur */
-    margin-bottom: 20px;     /* Espace entre chaque paragraphe */
-}
 
-/* Supprime la marge sur le tout dernier paragraphe */
-.presentation p:last-child {
-    margin-bottom: 0;
-}
-
-/* Met en valeur les mots importants (ton nom, les options) */
-.presentation strong {
-    color: var(--uspn-blue); /* Ton nom en bleu profond */
-    font-weight: 700;
-}
-
-.presentation em {
-    font-style: normal;
-    color: #555;
-    font-weight: 600;
-}
 
 .logo {
     width: 180px; /* Plus large comme sur le site */
@@ -351,97 +327,6 @@ header {
     color: var(--uspn-gold);
 }
 
-/* --- Sections de contenu --- */
-
-
-h1 {
-    color: var(--uspn-blue);
-    border-left: 5px solid var(--uspn-gold);
-    padding-left: 15px;
-    margin-bottom: 30px;
-}
-
-.liste {
-    background: white;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 2px 15px rgba(0,0,0,0.05);
-    margin-bottom: 20px;
-}
-
-/* Items de liste */
- 
-.element_liste_cours {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 20px;
-    border-bottom: 1px solid #eee;
-}
-
-
-
-/* Bouton supprimer (X) */
-.boutton_liste {
-    background-color: #e74c3c; /* Rouge pour la suppression */
-    color: white;
-    border: none;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    cursor: pointer;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-/* --- Formulaires & Champs --- */
-.form-ajout {
-    display: flex;
-    gap: 10px;
-    margin-bottom: 40px;
-}
-
-.champ_saisie  {
-    flex-grow: 1;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-    outline: none;
-    transition: border-color 0.3s, box-shadow 0.3s;
-}
-
-.champ_saisie:focus {
-    border-color: var(--uspn-blue);
-    box-shadow: 0 0 0 3px rgba(43, 54, 90, 0.1);
-}
-
-/* Bouton Valider style "Or" */
-.valide {
-    background-color: var(--uspn-gold);
-    color: var(--uspn-blue);
-    border: none;
-    padding: 10px 25px;
-    border-radius: 6px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background 0.3s;
-}
-
-.valide:hover {
-    background-color: var(--uspn-gold-light);
-}
-
-/* API Key style technique */
-/*.api-display {
-    background: var(--uspn-blue);
-    color: var(--uspn-gold);
-    padding: 15px;
-    border-radius: 8px;
-    display: inline-block;
-    font-family: monospace;
-} */
 
 /* Pousse tout ce qui suit à droite */
 .logout-container {

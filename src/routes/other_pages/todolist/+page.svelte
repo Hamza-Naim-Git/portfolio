@@ -313,15 +313,5 @@ h1 {
     background-color: var(--uspn-gold-light);
 }
 
-/* API Key style technique */
-/*.api-display {
-    background: var(--uspn-blue);
-    color: var(--uspn-gold);
-    padding: 15px;
-    border-radius: 8px;
-    display: inline-block;
-    font-family: monospace;
-} */
-
 
 </style>

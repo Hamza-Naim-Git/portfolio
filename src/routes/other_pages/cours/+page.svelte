@@ -45,31 +45,7 @@ import { enhance } from '$app/forms';
         {/each}
     </div>
     </div>
-<!--
-    <div class="anne_2">
-        <h1> 2e Année:</h1>
-        <form action="?/createcours" method="POST" class="form-ajout">
-        <input type="text" name="url" class="champ_saisie_2" placeholder="URL">
-        <input type="text" name="nom_cours" class="champ_saisie_2" placeholder="Nom du cours">
-        <button class="valide" type="submit">Ajouter</button>
-    </form>
-    <div class="liste_2">
-        {#each cours as item }
-            <div class="element_liste_cours_2">
-                <p><a href={item.url} target="_blank">{item.nom_cours}</a></p>
-
-                <form action="?/deletecours" method="POST">
-                    <input type="hidden" name="id_cours" value={item.id_cours}>
-                    <button class="boutton_liste" type="submit">X</button>
-                </form>     
-            </div>
-        {/each}
-    </div>
-    </div>
--->
-    
-
-    
+ 
         
         
 
@@ -218,17 +194,6 @@ h1 {
 .valide:hover {
     background-color: var(--uspn-gold-light);
 }
-
-/* API Key style technique */
-/*.api-display {
-    background: var(--uspn-blue);
-    color: var(--uspn-gold);
-    padding: 15px;
-    border-radius: 8px;
-    display: inline-block;
-    font-family: monospace;
-} */
-
 /* Pousse tout ce qui suit à droite */
 .logout-container {
     margin-left: auto; 

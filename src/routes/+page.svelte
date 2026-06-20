@@ -133,10 +133,6 @@ C'est pourquoi je développe ce site dans l'optique qu'il soit un outil de réf�
     
 }
 
-.checked {
-    text-decoration: line-through;
-    opacity: 0.6;
-}
 
 /* Pousse tout ce qui suit à droite */
 .logout-container {
@@ -203,12 +199,7 @@ C'est pourquoi je développe ce site dans l'optique qu'il soit un outil de réf�
     padding: 0;
 }
 
-/* --- Navigation & Header --- */
-header {
-    background-color: var(--uspn-blue);
-    padding: 20px 40px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-}
+
 
 .cadre {
     display: flex;
@@ -236,103 +227,7 @@ header {
     color: var(--uspn-gold);
 }
 
-/* --- Sections de contenu --- */
-.main-content {
-    padding: 40px;
-    max-width: 1000px;
-    margin: 0 auto;
-}
 
-h1 {
-    color: var(--uspn-blue);
-    border-left: 5px solid var(--uspn-gold);
-    padding-left: 15px;
-    margin-bottom: 30px;
-}
-
-.liste {
-    background: white;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 2px 15px rgba(0,0,0,0.05);
-    margin-bottom: 20px;
-}
-
-/* Items de liste */
-.element_liste_pense_bete, 
-.element_liste_site {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 20px;
-    border-bottom: 1px solid #eee;
-}
-
-.element_liste_pense_bete:last-child {
-    border-bottom: none;
-}
-
-/* Bouton supprimer (X) */
-.boutton_liste {
-    background-color: #e74c3c; /* Rouge pour la suppression */
-    color: white;
-    border: none;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    cursor: pointer;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-/* --- Formulaires & Champs --- */
-.form-ajout {
-    display: flex;
-    gap: 10px;
-    margin-bottom: 40px;
-}
-
-.champ_saisie, #text_pense_bete {
-    flex-grow: 1;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-    outline: none;
-    transition: border-color 0.3s, box-shadow 0.3s;
-}
-
-.champ_saisie:focus, #text_pense_bete:focus {
-    border-color: var(--uspn-blue);
-    box-shadow: 0 0 0 3px rgba(43, 54, 90, 0.1);
-}
-
-/* Bouton Valider style "Or" */
-.valide {
-    background-color: var(--uspn-gold);
-    color: var(--uspn-blue);
-    border: none;
-    padding: 10px 25px;
-    border-radius: 6px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background 0.3s;
-}
-
-.valide:hover {
-    background-color: var(--uspn-gold-light);
-}
-
-/* API Key style technique */
-/*.api-display {
-    background: var(--uspn-blue);
-    color: var(--uspn-gold);
-    padding: 15px;
-    border-radius: 8px;
-    display: inline-block;
-    font-family: monospace;
-} */
 
 
 </style>
