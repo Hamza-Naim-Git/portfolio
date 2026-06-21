@@ -27,7 +27,10 @@
             <div class="project-content">
                 <h3 class="project-name">Find Word</h3>
                 <p class="project-description">
-                    Find Word est un jeu conçu en Java à utiliser dans un terminal. Le but du jeu est de trouver un mot secret de 5 lettres en moins de 6 essais...
+                    Find Word est un jeu conçu en Java à utiliser dans un terminal. Le but du jeu est de trouver un mot secret de 5 lettres, tiré au hasard parmi une liste de 1000 mots en moins de 6 essais.<br>
+                    Durant ce projet avec mon binôme nous avons développé plusieurs classe tels que Word qui gère la logique métier, Game qui sert d’arbitre en validant les propositions du joueurs WordRepository <br>
+                    qui sert à piocher un mot dans la liste JSON. <br>Ce projet m’a permis de me perfectionner sur plusieurs points notamment mes compétences en Java, comme constituer un diagramme UML, optimiser les classes entre elles et m’exercer au niveau du clean code. Mais aussi de tirer de nombreux bénéfices comme Une meilleure gestion des imprévus. En effet durant cette SAE plusieurs événements inattendus sont survenus comme comme par exemple: une compréhension tardive du sujet ce qui à entraîner une refonte des classes. La capacité à prendre des décisions et les justifiées, en effet cette SAE étant moins guidée que d'autre, cela nous a permis d’apprendre à faire des choix selon les critères du cahier des charges mais aussi et surtout à les justifier afin de prendre les meilleures décisions possible.
+
                 </p>
                 <div class="project-tags">
                     <span>Java</span>
@@ -36,14 +39,18 @@
                 </div>
             </div>
             <div class="project-image-container">
-                <img src="chemin_image_find_word.png" alt="Aperçu Find Word" class="project-image" />
+                <img src="/images/Capture _find_word.png" alt="Aperçu Find Word" class="project-image-fd" />
             </div>
         </article>
 
         <article class="project-card inverted"> <div class="project-content">
                 <h3 class="project-name">Création de Dashboard - Brigade Criminelle</h3>
                 <p class="project-description">
-                    Exploitation et valorisation d'une base de données d'une Brigade Anti-Criminalité. Traduction de modèles de données complexes SQL en indicateurs visuels et dynamiques...
+                    Ce projet consiste à l’exploitation et la valorisation d’une base de données d’une Brigade Anti-Criminalité. L’objectif est de transformer un volume important brut de donnée stockée dans une base de donnée en indicateurs visuellement simple et dynamique permettant son exploitation plus rapide pour des décideur ou des personnel de terrain.
+                    La mise en place de ce support visuel permet ainsi de combler le fossé entre des personnes initiées au SQL et des personnes qui qui ne possèdent pas forcément cette compétence et ce en traduisant ces modèle de donnée complexe par des dashboard plus simple à lire et permettant de comprendre instantanément les tendances criminels exemple. 
+                    Ce projet me permet de mettre diverses de mes compétences en avant. Parmi les plus importantes d’entre, je peux citer ma capacité à mettre en place une base de données fonctionnel pour une organisation possédant des données sensible telles que la BAC mais aussi son exploitation à destination de professionnel leurs permettant ainsi une prise de connaissances plus rapide de l’information par l’intermédiaire de la création de dashboard mais aussi ma capacité à mettre en lien des outils informatique afin de répondre à un besoin selon un cahier des charges.
+                    Au-delà de l’aspect technique, ce projet m'a permis de mettre en avant mon  autonomie du fait de prendre des décision de les justifier à partir de critère et objectif précis et ma capacité à restituer.
+
                 </p>
                 <div class="project-tags">
                     <span>SQL</span>
@@ -52,7 +59,7 @@
                 </div>
             </div>
             <div class="project-image-container">
-                <img src="chemin_image_dashboard.png" alt="Aperçu Dashboard" class="project-image" />
+                <img src="/images/Capture d'écran 2026-06-21 100131.png" alt="Aperçu Dashboard" class="project-image-dash-bord" />
             </div>
         </article>
 
@@ -60,7 +67,7 @@
             <div class="project-content">
                 <h3 class="project-name">Orion</h3>
                 <p class="project-description">
-                    Outil de référence pour les étudiants de l'université Sorbonne Paris Nord. Inclut une to-do liste, un répertoire de sauvegarde et des partages de cours...
+                   Orion est le site sur lequel vous êtes actuellement. Ce site est en plein développement et sert principalement de projet étudiant. Je voulais un projet qui ait un sens concret et qui lui donne une utilité réelle. C'est pourquoi je développe ce site dans l'optique qu'il soit un outil de référence pour les étudiants de l'université Sorbonne Paris Nord (et peut-être plus encore, qui sait ? 😄). Pour l'instant, les fonctionnalités sont la mise à disposition d’une to-do list, un répertoire permettant de sauvegarder des sites mais aussi des liens vers les cours d’étudiants comme, par exemple, des Google Docs.
                 </p>
                 <div class="project-tags">
                     <span>SvelteKit</span>
@@ -69,7 +76,7 @@
                 </div>
             </div>
             <div class="project-image-container">
-                <img src="chemin_image_orion.png" alt="Aperçu Orion" class="project-image" />
+                <img src="/images/logo.png" alt="Aperçu Orion" class="project-image-orion" />
             </div>
         </article>
     </div>
@@ -273,9 +280,16 @@ header {
     overflow: hidden;
 }
 
-.project-image {
+.project-image-fd {
     width: 100%;
-    height: 100%;
+    height: 25%;
+    object-fit: cover; /* L'image remplit proprement son espace sans se déformer */
+    transition: scale 0.5s ease;
+}
+
+.project-image-orion {
+    width: 100%;
+    height: 25%;
     object-fit: cover; /* L'image remplit proprement son espace sans se déformer */
     transition: scale 0.5s ease;
 }
