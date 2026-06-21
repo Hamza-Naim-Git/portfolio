@@ -17,6 +17,7 @@
             </form>
         </div>
     </nav>
+    </header>
     <section class="portfolio-section">
     <h2 class="portfolio-title">Projets Universitaires</h2>
     <p class="portfolio-subtitle">Découvrez certains de mes projets effectués durant mes années de BUT Informatique :</p>
@@ -73,7 +74,7 @@
         </article>
     </div>
 </section>
-</header>
+
 
 
 
