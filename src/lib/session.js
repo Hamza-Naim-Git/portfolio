@@ -122,10 +122,15 @@ export function deleteSessionTokenCookie(event) {
 // -----------------------------
 // 7) Google OAuth
 // -----------------------------
-export const google = new Google(
-    GOOGLE_CLIENT_ID,
-    GOOGLE_CLIENT_SECRET,
-    "https://portfolio-seven-amber-76.vercel.app/login/google/callback"
+const redirectURL =
+  process.env.NODE_ENV === "development"
+    ? "http://localhost:5173/login/google/callback"
+    : "https://portfolio-seven-amber-76.vercel.app/login/google/callback";
 
+export const google = new Google(
+  GOOGLE_CLIENT_ID,
+  GOOGLE_CLIENT_SECRET,
+  redirectURL
 );
+
 /*1:09:34*/
