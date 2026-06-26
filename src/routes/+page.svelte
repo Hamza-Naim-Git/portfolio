@@ -37,11 +37,10 @@ import { enhance } from '$app/forms';
     </nav>
 </div>
 <!--<p>Aujourd'hui nous sommes le {date}</p> à corriger --> 
-<!--<div class="intro">
-<h2>Bienvenu sur Orion un site développer par un étudiant pour les étudiants.</h2>
-<p class=text_intro >Se site et en plein développement et sert principalement de projet étudiant. Je voulais un projet il est un sens concret et ceux en lui donnant une utilité réel.<br>
-C'est pourquoi je développe ce site dans l'optique qu'il soit un outil de référence pour les étudiants de l'université Sorbonne Paris Nord (et peut-être plus encore qui c'est &#x1F604;) </p>
-</div>-->
+<div class="intro">
+<h2>Liste des mise à jour:</h2>
+<p>-Correction de la pages Portfolio, absence du boutton "Cours" </p>
+</div>
 
 
 <style>

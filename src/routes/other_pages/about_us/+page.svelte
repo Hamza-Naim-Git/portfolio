@@ -5,6 +5,7 @@
         <a href="https://cas.univ-spn.fr/cas/login?service=https%3A%2F%2Fetudnotes.iutv.univ-paris13.fr%2Fservices%2FdoAuth.php%3Fhref%3Dhttps%253A%252F%252Fetudnotes.iutv.univ-paris13.fr%252F" class="boutton">Edunote</a>
         <a href="../other_pages/portfolio" class="boutton">Portfolio</a>
         <a href="../other_pages/todolist" class="boutton">Todo-list</a>
+        <a href="../other_pages/cours" class="boutton">Cours</a>
 
         <div class="logout-container">
             <form action="?/logout" method="POST">
