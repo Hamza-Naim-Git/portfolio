@@ -39,7 +39,7 @@ import { enhance } from '$app/forms';
 <!--<p>Aujourd'hui nous sommes le {date}</p> à corriger --> 
 <div class="intro">
 <h2>Liste des mise à jour:</h2>
-<p>-Correction de la pages Portfolio, absence du boutton "Cours" </p>
+<p>-Correction de la pages "A propos du développer", absence du boutton "Cours" </p>
 </div>
 
 
